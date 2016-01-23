@@ -1,4 +1,3 @@
-file '/temp/motd' do
- action :create	
- content 'hello chef'
+file "/etc/motd" do
+	content "This is the MOTD"
 end
